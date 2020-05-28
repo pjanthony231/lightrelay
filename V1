@@ -1,0 +1,19 @@
+import queue
+import threading
+import RPi.GPIO as GPIO
+import time
+
+add_time = None
+
+class Light:
+    global add_time
+    def __init__(self, light_id, GPIOpin):
+        self.GPIO = GPIOpin
+        self.light_id = light_id
+        self.timing_queue = queue.Queue()
+    def time_updater:
+        while True
+            if light_id == add_time[1]:
+    
+    def run(self):
+      
